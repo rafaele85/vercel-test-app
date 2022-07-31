@@ -13,7 +13,7 @@ app.get('/api/item/:slug', (req, res) => {
     res.end(`Item: ${slug}`);
 });
 
-app.listen(5000, () => {
+app.listen(80, () => {
     console.log("Running on port 5000.");
 });
 
